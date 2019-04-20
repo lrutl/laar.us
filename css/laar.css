@@ -1,0 +1,147 @@
+a
+{
+  color: #1d72b4;
+}
+
+p
+{
+  text-align: left;
+}
+
+body
+{
+  color: #946b2d;
+  font-family: "Consolas", monaco, monospace;
+  background: url("../img/background0.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: #fff;
+}
+
+.sectionTable
+{
+  font-size: 18px;
+  position: fixed;
+  top: calc(50% - 3em);
+  left: 30px;
+}
+.table-of-contents a
+{
+  display: inline-block;
+  font-weight: 300;
+  color: #946b2d;
+  padding-left: 16px;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: .4;
+  display: inline-block;
+}
+
+.table-of-contents a:hover
+{
+  color: #1d72b4;
+  padding-left: 15px;
+  border-left: 1px solid #222f5b;
+}
+
+.table-of-contents a.active
+{
+  font-weight: 500;
+  padding-left: 14px;
+  border-left: 2px solid #222f5b;
+}
+
+.pageHeader img
+{
+  margin-top: 20px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.sectionHeader
+{
+  border-radius: 10px 10px 0px 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 5px;
+  border-style: solid none double none;
+  border-color: #222f5b;
+  border-width: 5px 5px 4px 5px;
+  font-size: 22px;
+  background-color: rgba(20,20,20,0.92);
+}
+
+.sectionContent
+{
+  border-radius: 0px 0px 10px 10px;
+  min-height: 195px;
+  padding: 10px;
+  border-style: none none solid none;
+  border-color: #5d5d5d;
+  border-width: 5px;
+  font-size: 18px;
+  background-color: rgba(20,20,20,0.92);
+}
+
+.aboutImg
+{
+  width: 23%;
+  min-width: 135px;
+  max-width: 170px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #5d5d5d;
+  border-width: 3px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.project p, li, ul
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.projectHeader
+{
+  border-style: none none double none;
+  border-color: #222f5b;
+  border-width: 4px;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.project img
+{
+  max-width: 70%;
+  min-width: 84px;
+  height: auto;
+}
+
+.contactHeader
+{
+  width: 60%;
+  min-width: 200px;
+  border-radius: 10px;
+  border-style: solid none solid none;
+  border-color: #222f5b #1d72b4 #5d5d5d #1d72b4;
+  border-width: 5px;
+}
+
+.contactFooter
+{
+  background-color: rgba(20,20,20,0.5);
+  min-height: 0px;
+  border-style: none solid solid solid;
+  border-width: 5px 4px 5px 4px;
+  border-color: #5d5d5d;
+  padding: 5px 0px 0px 0px;
+  width: 30%;
+  min-width: 160px;
+  font-size: 20px;
+}
