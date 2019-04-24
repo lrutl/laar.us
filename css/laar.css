@@ -8,6 +8,7 @@ body
   background-attachment: fixed;
   background-position: center center;
   background-color: #fff;
+  text-align: center;
 }
 
 a
@@ -126,8 +127,6 @@ p
 
 .contactHeader
 {
-  width: 60%;
-  min-width: 200px;
   border-radius: 10px;
   border-style: solid none solid none;
   border-color: #222f5b #1d72b4 #5d5d5d #1d72b4;
@@ -142,6 +141,4 @@ p
   border-width: 4px 3px 4px 3px;
   border-color: #5d5d5d;
   padding: 5px 0px 0px 0px;
-  width: 30%;
-  min-width: 160px;
 }
