@@ -89,6 +89,7 @@ p
 
 .aboutImg
 {
+    float: right;
   width: 23%;
   min-width: 135px;
   max-width: 170px;
