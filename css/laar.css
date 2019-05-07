@@ -89,7 +89,7 @@ p
 
 .aboutImg
 {
-    float: right;
+  float: right;
   width: 23%;
   min-width: 135px;
   max-width: 170px;
@@ -98,7 +98,13 @@ p
   border-color: #5d5d5d;
   border-width: 3px;
   margin: 10px;
-  margin-left: 0px;
+  margin-left: 4px;
+  margin-bottom: 0px;
+}
+
+.project
+{
+  height: 12em;
 }
 
 .project p, li, ul
