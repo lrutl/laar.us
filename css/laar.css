@@ -104,10 +104,10 @@ p
 
 .project
 {
-  height: 12em;
+  height: 16em;
 }
 
-.project p, li, ul
+.project h5, p, li, ul
 {
   margin-top: 0px;
   margin-bottom: 0px;
