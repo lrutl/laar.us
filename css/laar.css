@@ -59,7 +59,7 @@ p
 {
   margin-top: 20px;
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .sectionHeader
@@ -78,7 +78,7 @@ p
 .sectionContent
 {
   border-radius: 0px 0px 10px 10px;
-  min-height: 195px;
+  min-height: 220px;
   padding: 10px;
   border-style: none none solid none;
   border-color: #5d5d5d;
@@ -127,9 +127,9 @@ p
 
 .project img
 {
-  max-width: 70%;
-  min-width: 84px;
-  height: auto;
+    max-width: 70%;
+    min-width: 84px;
+    height: auto;
 }
 
 .contactHeader
