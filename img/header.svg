@@ -18,9 +18,9 @@
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
    id="svg8"
    version="1.1"
-   viewBox="0 0 130 59.99693"
-   height="59.996929mm"
-   width="130mm">
+   viewBox="0 0 117.16783 59.996926"
+   height="59.996925mm"
+   width="117.16783mm">
   <defs
      id="defs2">
     <linearGradient
@@ -530,7 +530,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.2336134"
      inkscape:cx="260.90929"
-     inkscape:cy="75.400593"
+     inkscape:cy="75.400614"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -547,7 +547,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -555,7 +555,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-23.055645,-39.709228)">
+     transform="translate(-23.055645,-39.709239)">
     <g
        id="g4766">
       <path

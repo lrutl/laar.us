@@ -57,9 +57,9 @@ p
 
 .pageHeader img
 {
-  margin-top: 20px;
+  margin: 0px;
   width: 100%;
-  max-width: 500px;
+  max-width: 520px;
 }
 
 .sectionHeader
