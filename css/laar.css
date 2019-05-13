@@ -62,6 +62,12 @@ p
   max-width: 520px;
 }
 
+.section
+{
+    margin-bottom: 2rem;
+    padding: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
 .sectionHeader
 {
   border-radius: 10px 10px 0px 0px;
