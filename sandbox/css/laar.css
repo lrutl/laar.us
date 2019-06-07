@@ -164,20 +164,29 @@ body
 
 .project
 {
-    width: 60%;
-    height: 66%;
 }
 
+.nop
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.row .col
+{
+    padding: 0px 0px;
+}
 .projectBanner
 {
     width: 100%;
-    height: 220px;
+    height: 180px;
 }
 
 .projectImage
 {
     width: 100px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: -50%;
 }
 
@@ -185,13 +194,13 @@ body
 {
     margin-top: -4em;
     margin-bottom: 0em;
-    margin-left: 140px;
+    margin-left: 120px;
 }
 
 .projectDate
 {
     margin-top: 0em;
-    margin-left: 140px;
+    margin-left: 120px;
     margin-bottom: 2em;
 }
 
