@@ -1,0 +1,239 @@
+html
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#home
+{
+    background-color: #ddded9;
+}
+
+.socialLinks
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#about
+{
+    background-color: #536920;
+}
+
+#projects
+{
+
+}
+
+#contact
+{
+
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.full-screen
+{
+    width: 100%;
+    height: 100%;
+}
+
+.img_top
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.img_bottom
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.img_person
+{
+    position: absolute;
+    left: 40px;
+    bottom: 0px;
+    width: 13%;
+    max-height: 100%;
+}
+
+.next-btn
+{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+}
+
+.prev-btn
+{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.right-btn
+{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-150%, -50%);
+}
+
+.left-btn
+{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%, -50%);
+}
+
+.title
+{
+    position: absolute;
+    text-align: center;
+    font-family: "Questrial", monaco, monospace;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pageTitle
+{
+    position: absolute;
+    font-family: "Questrial", monaco, monospace;
+    top: 0%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.centerChild
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.carousel-slider
+{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item
+{
+    width: 100%;
+    height: 100%;
+}
+
+.project
+{
+    width: 60%;
+    height: 66%;
+}
+
+.projectBanner
+{
+    width: 100%;
+    height: 240px;
+}
+
+.projectImage
+{
+    width: 140px;
+    margin-left: 20px;
+    margin-top: -50%;
+}
+
+.projectTitle
+{
+    margin-top: -4em;
+    margin-bottom: 0em;
+    margin-left: 180px;
+}
+
+.projectDate
+{
+    margin-top: 0em;
+    margin-left: 180px;
+    margin-bottom: 2em;
+}
+
+.title h1
+{
+    font-size: 72px;
+    margin: 0px;
+}
+
+.title h2
+{
+    font-size: 28px;
+    margin: 16px;
+}
+
+.aboutImg
+{
+  float: right;
+  width: 23%;
+  min-width: 135px;
+  max-width: 170px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  margin: 10px;
+  margin-left: 4px;
+  margin-bottom: 0px;
+}
+
+header
+{
+    padding: 100px 0px 80px 0px;
+    background-color: #cd7970;
+}
+
+.well
+{
+    margin: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.headerImg
+{
+    width: 740px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}

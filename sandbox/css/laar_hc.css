@@ -1,0 +1,137 @@
+body
+{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+p
+{
+    text-align: left;
+}
+
+.sectionTable
+{
+  font-size: 16px;
+  position: fixed;
+  top: 23em;
+  left: 28px;
+}
+
+.table-of-contents a
+{
+  display: inline-block;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 16px;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: .4;
+  display: inline-block;
+}
+
+.table-of-contents a:hover
+{
+  color: #fff;
+  padding-left: 15px;
+  border-left: 1px solid #000;
+}
+
+.table-of-contents a.active
+{
+  font-weight: 500;
+  padding-left: 14px;
+  border-left: 2px solid #000;
+}
+
+.pageHeader img
+{
+  margin-top: 20px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.sectionHeader
+{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 5px;
+  border-style: solid solid double solid;
+  border-color: #fff;
+  border-width: 5px 5px 4px 5px;
+  font-size: 22px;
+  background-color: #000;
+}
+
+.sectionContent
+{
+  min-height: 210px;
+  padding: 10px;
+  border-style: none solid solid solid;
+  border-color: #fff;
+  border-width: 5px;
+  font-size: 18px;
+  background-color: #000;
+}
+
+.aboutImg
+{
+    float: right;
+  width: 23%;
+  min-width: 135px;
+  max-width: 170px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 3px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.project p, li, ul
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.projectHeader
+{
+  border-style: none none double none;
+  border-color: #fff;
+  border-width: 4px;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.project img
+{
+  max-width: 70%;
+  min-width: 84px;
+  height: auto;
+}
+
+.contactHeader
+{
+  border-style: solid solid solid solid;
+  border-color: #fff;
+  border-width: 5px;
+}
+
+.contactFooter
+{
+  background-color: #000;
+  min-height: 0px;
+  border-style: none solid solid solid;
+  border-width: 4px 3px 4px 3px;
+  border-color: #fff;
+  padding: 5px 0px 0px 0px;
+}

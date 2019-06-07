@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Luke Ruter">
+  <meta name="description" content="Hello, my name is Luke Ruter, and I am a full-stack developer from Cincinnati studying in Boston. This website acts as an about page, portfolio, and contact portal, so stop in for a visit!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="origin">
+  <meta name="keywords" content="Luke Ruter,lrutl,web development,Boston,Cincinnati">
+
+  <title>Luke Ruter | Personal Website &#38; Portfolio</title>
+  <link type="image/png" rel="icon" href="img/favico2.png">
+  <link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css" media="screen">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/laar.css" media="screen">
+</head>
+
+<body>
+
+    <div id="home" class="section scrollspy">
+        <img class="img_bottom" src="img/page1_bottom.svg">
+        <img class="img_person" src="img/page1_person.svg">
+        <div class="socialLinks">
+            <a href="https://t.me/lrutl"><i class="material-icons dp48">phone</i></a>
+            <a href="mailto:luke@laar.us"><i class="material-icons">email</i></a>
+            <a href="https://instagram.com/lrutl"><i class="material-icons">photo_camera</i></a>
+            <a href="https://github.com/lrutl"><i class="material-icons">code</i></a>
+            <a href="https://www.linkedin.com/in/lukeruter/"><i class="material-icons">business</i></a>
+        </div>
+        <div class="title">
+            <h1>Luke Ruter</h1>
+            <h2>Full Stack Developer</h2>
+        </div>
+        <a href="#about" class="next-btn waves-effect waves-light btn">
+            <i class="material-icons right">arrow_downward</i>About Me
+        </a>
+    </div>
+
+    <div id="about" class="section scrollspy valign-wrapper">
+        <img class="img_top" src="img/page2_top.svg">
+        <img class="img_bottom" src="img/page2_bottom.svg">
+        <h1 class="pageTitle">About Me</h1>
+        <div class="row">
+        <div class="col s8 offset-s2">
+        <div class="card z-depth-1">
+            <div class="card-content">
+                <span class="card-title">Hello!</span>
+                <p>
+                  My name is Luke Ruter,
+                  and I am currently a Sophomore studying at Boston College
+                  seeking a B.S. in Computer Science and minor in Philosophy.
+                  I am skilled in full stack development, and while I am still
+                  getting a handle of some things, I am capable of producing web
+                  applications with custom designs and assets,
+                  and if needed, integrating them with a Linux or Windows server.
+                  If you would like to inquire for services,
+                  feel free to contact me using any of the links at the bottom of this page!
+                </p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <a href="#home" class="prev-btn waves-effect waves-light btn">
+            <i class="material-icons right">arrow_upward</i>Home
+        </a>
+        <a href="#projects" class="next-btn waves-effect waves-light btn">
+            <i class="material-icons right">arrow_downward</i>Projects
+        </a>
+    </div>
+
+    <div id="projects" class="section scrollspy">
+        <div id="projectc" class="carousel carousel-slider">
+            <div class="full-screen carousel-fixed-item">
+                <a class="right-btn btn-floating btn-large waves-effect waves-light" onclick="CarouselNext();"><i class="material-icons">arrow_right</i></a>
+                <a class="left-btn btn-floating btn-large waves-effect waves-light" onclick="CarouselPrev();"><i class="material-icons">arrow_left</i></a>
+                <h1 class="pageTitle">Projects</h1>
+            </div>
+            <div class="carousel-item cyan lighten-1">
+                <div class="project card centerChild z-depth-1">
+                    <img class="projectBanner" src="img/banner.svg">
+                    <img class="projectImage" src="img/icon/nudge.png">
+                    <h2 class="projectTitle white-text">NudgeBC</h2>
+                    <p class="projectDate white-text">January 2019 -- Now</p>
+                    <div class="card-content">
+                          <p>Events app for BC's campus.</p>
+                          <ul>
+                              <li>Setup with LAMP stack.</li>
+                              <li>Designed website.</li>
+                              <li>On app development team.</li>
+                          </ul>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://nudgebc.com">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                    <div class="project card centerChild z-depth-1">
+                        <img class="projectBanner" src="img/banner.svg">
+                        <img class="projectImage" src="img/icon/collab2.png">
+                        <h2 class="projectTitle white-text">Col(lab)<sup>2</sup></h2>
+                        <p class="projectDate white-text">April 2019</p>
+                    <div class="card-content">
+                          <p>CS collaboration tool.</p>
+                          <ul>
+                              <li>Team project for <a href="http://hacktheheights.com/">HTH3</a>.</li>
+                              <li>Merged design and back-end.</li>
+                          </ul>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://clb.laar.us">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item yellow darken-2">
+                    <div class="project card centerChild z-depth-1">
+                        <img class="projectBanner" src="img/banner.svg">
+                            <img class="projectImage" src="img/icon/project.png">
+                            <h2 class="projectTitle white-text">Rotary Motion</h2>
+                            <p class="projectDate white-text">March 2017</p>
+                    <div class="card-content">
+                          <p>A simple physics simulation.</p>
+                          <ul>
+                              <li>Implemented using JavaScript.</li>
+                              <li>Designed using WebGL.</li>
+                          </ul>
+                          <p>March 2017</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="./rotary">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+
+           <div class="carousel-item red">
+                    <div class="project card centerChild z-depth-1">
+                        <img class="projectBanner" src="img/banner.svg">
+                            <img class="projectImage" src="img/icon/block.png">
+                            <h2 class="projectTitle white-text">log's Scripts</h2>
+                            <p class="projectDate white-text">March 2014 ~ 2016</p>
+                    <div class="card-content">
+                      <p>A collection of add-on scripts.</p>
+                      <ul>
+                          <li>Made for <a href="https://blockland.us">Blockland</a>.</li>
+                          <li>Written in Torque.</li>
+                      </ul>
+                  </div>
+                    <div class="card-action">
+                        <a href="./logs-scripts">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="prev-btn waves-effect waves-light btn">
+            <i class="material-icons right">arrow_upward</i>About Me
+        </a>
+    </div>
+
+<script src="vendor/materialize/js/materialize.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems, {throttle: 0, scrollOffset: 0});
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var projectC = M.Carousel.init(elems, {fullWidth: true});
+  });
+
+function CarouselNext()
+{
+    var instance = M.Carousel.getInstance(document.getElementById('projectc'));
+    instance.next();
+}
+function CarouselPrev()
+{
+    var instance = M.Carousel.getInstance(document.getElementById('projectc'));
+    instance.prev();
+}
+</script>
+</body>
+
+</html>
