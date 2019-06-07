@@ -40,7 +40,7 @@
     <div id="about" class="section scrollspy valign-wrapper">
         <img class="img_top" src="img/page2_top.svg">
         <img class="img_bottom" src="img/page2_bottom.svg">
-        <h1 class="pageTitle">About Me</h1>
+        <h1 class="pageTitle hide-on-small-only">About Me</h1>
         <div class="row">
         <div class="col s8 offset-s2">
         <div class="card z-depth-1">
@@ -72,9 +72,9 @@
     <div id="projects" class="section scrollspy">
         <div id="projectc" class="carousel carousel-slider">
             <div class="full-screen carousel-fixed-item">
-                <a class="right-btn btn-floating btn-large waves-effect waves-light" onclick="CarouselNext();"><i class="material-icons">arrow_right</i></a>
-                <a class="left-btn btn-floating btn-large waves-effect waves-light" onclick="CarouselPrev();"><i class="material-icons">arrow_left</i></a>
-                <h1 class="pageTitle">Projects</h1>
+                <a class="right-btn btn-floating btn-large waves-effect waves-light hide-on-small-only" onclick="CarouselNext();"><i class="material-icons">arrow_right</i></a>
+                <a class="left-btn btn-floating btn-large waves-effect waves-light hide-on-small-only" onclick="CarouselPrev();"><i class="material-icons">arrow_left</i></a>
+                <h1 class="pageTitle pageTitleP hide-on-small-only">Projects</h1>
             </div>
             <div class="carousel-item cyan lighten-1">
                 <div class="project card centerChild z-depth-1">
@@ -166,7 +166,7 @@
   });
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var projectC = M.Carousel.init(elems, {fullWidth: true});
+    var projectC = M.Carousel.init(elems, {fullWidth: true, indicators: true});
   });
 
 function CarouselNext()
