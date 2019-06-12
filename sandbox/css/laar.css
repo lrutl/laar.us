@@ -7,6 +7,13 @@ html
     position: relative;
 }
 
+body
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
 #home
 {
     background-color: #ddded9;
@@ -27,18 +34,6 @@ html
 #projects
 {
 
-}
-
-#contact
-{
-
-}
-
-body
-{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
 }
 
 .section
@@ -124,7 +119,7 @@ body
 .pageTitle
 {
     position: absolute;
-    font-family: "Questrial", monaco, monospace;
+    font-family: "Liberation Serif", monaco, monospace;
     top: 0%;
     margin-top: 30px;
     margin-left: 20px;
@@ -160,6 +155,7 @@ body
 {
     width: 100%;
     height: 100%;
+    padding: 20px;
 }
 
 .project

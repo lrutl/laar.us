@@ -6215,7 +6215,7 @@ $jscomp.polyfill = function (e, r, p, m) {
           var scrollspy = ScrollSpy._elements[i];
           if ($trigger.is('a[href="#' + scrollspy.$el.attr('id') + '"]')) {
             e.preventDefault();
-            var offset = scrollspy.$el.offset().top;
+            var offset = scrollspy.$el.offset().top + 1;
 
             anim({
               targets: [document.documentElement, document.body],
@@ -12372,4 +12372,3 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   Range.init($('input[type=range]'));
 })(cash, M.anime);
-
