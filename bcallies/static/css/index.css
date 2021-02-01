@@ -1,0 +1,139 @@
+html
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-wrapper
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.fa
+{
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.fa-facebook
+{
+ background: #3B5998;
+ color: white;
+}
+
+.fa-twitter
+{
+ background: #55ACEE;
+ color: white;
+}
+
+.fa-instagram
+{
+    background: #8a3ab9;
+    color: white;
+}
+
+#about
+{
+    
+}
+
+#projects
+{
+
+}
+
+.section
+{
+}
+
+.full-screen
+{
+}
+
+.brand-img
+{
+    margin: 0px;
+    width: 42px;
+    height: 42px;
+}
+
+.img_logo
+{
+    margin-top: 50px;
+    min-width: 320px;
+    width: 30%;
+}
+
+.title
+{
+    text-align: center;
+    font-family: "Questrial", monaco, monospace;
+}
+
+.aboutUs
+{
+    margin-bottom: 50px;
+}
+
+.sep
+{
+    background-color: #222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 100%;
+}
+
+.board-mem
+{
+    display: inline-block;
+    width: 500px;
+}
+
+.profile
+{
+    width: 15%;
+    border-radius: 50%;
+    border-color: #009688;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.title
+{
+
+}
+
+.position
+{
+}
+
+.links
+{
+}
+
+.small
+{
+    padding: 0px;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 0%;
+    margin-left: 0px;
+    background: rgba(0,0,0,0);
+    color: #009688; 
+}
