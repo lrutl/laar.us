@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>{% block head %}
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <meta name="description" content="Two way service marketplace for students in university.">
+  <meta name="author" content="Luke Ruter">
+
+	<title>{% block title %}Cashmates{% endblock %}</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="{% static 'vendor/materialize/css/materialize.min.css' %}" media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="{% static 'css/base.css' %}" media="screen,projection"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon/apple-touch-icon.png' %}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png' %}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png' %}">
+	<link rel="manifest" href="{% static 'img/favicon/site.webmanifest' %}">
+	<link rel="mask-icon" href="{% static 'img/favicon/safari-pinned-tab.svg' %}" color="#435e54">
+	<meta name="msapplication-TileColor" content="#00a300">
+	<meta name="theme-color" content="#ffffff">
+
+{% endblock %}</head>
+
+<body>
+
+{% block topnav %}
+	<nav>
+		<div class="nav-wrapper container">
+			<a id="cashmates-logo" href="/" class="brand-logo left hide-on-med-and-down">
+				<p class="nomargin color3">Cash</p><p class="nomargin color2">mates</p>
+			</a>
+      <ul id="nav-mobile" class="right">
+        {% block topbar_links %}
+        {% if user.is_authenticated %}
+        <li><a href="{% url 'logout' %}" data-turbolinks="false"><i class="material-icons right">exit_to_app</i>Log out</a></li>
+        {% else %}
+        <li><a href="{% url 'login' %}" data-turbolinks="false"><i class="material-icons right">lock_open</i>Log in</a></li>
+        <li><a href="{% url 'info' %}" data-turbolinks="false"><i class="material-icons right">create</i>Sign Up</a></li>
+        {% endif %}
+        {% endblock %}
+      </ul>
+		</div>
+  </nav>
+{% endblock %}
+
+	{% block content %}
+	{% endblock %}
+
+	<script type="text/javascript" src="{% static 'vendor/jquery-3.4.0.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'vendor/materialize/js/materialize.min.js' %}"></script>
+  <script>
+    M.AutoInit();
+  </script>
+</body>
+
+</html>

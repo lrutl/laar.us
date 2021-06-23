@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+{{ block.super }}
+{% endblock %}
+
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+<div id="index-banner" class="parallax-container">
+  <div class="section">
+    <div class="container">
+      <div class="row centerChild">
+        <h1 class="nomargin color2">Cash</h1><h1 class="nomargin color3">mates</h1>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="{% static 'img/background2.jpg' %}" alt="Unsplashed background img 1"></div>
+</div>
+
+
+<div class="section hoverable">
+  <div class="container">
+    <br><br>
+    <div class="row center">
+      <h2 class="header col s12 color1 left-align">About us</h2>
+      <h4 class="header col s12">Cashmates is a marketplace that facilitates student to student services: providing systems for scheduling, payments, and customer relation management.</h4>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+
+<div class="parallax-container">
+  <div class="parallax"><img src="{% static 'img/background1.jpg' %}" alt="Unsplashed background img 2"></div>
+</div>
+
+<div class="section hoverable">
+  <div class="container">
+    <br>
+    <div class="row center">
+      <h2 class="header col s12 color1 left-align">Working behind the scenes</h2>
+        <div class="col s6 m4 l3 hoverable team-block">
+            <img src="/static/images/contact/jk.png" width="150" height="150" class="team-pic" alt=""></img>
+            <h5>Jacob Kozhipatt</h5>
+            <p><a href="https://www.linkedin.com/in/jacobkozy/" class="fab fa-linkedin"></a> Founder</p>
+        </div>
+        <div class="col s6 m4 l3 hoverable team-block">
+            <img src="/static/images/contact/al.png" width="150" height="150" class="team-pic" alt=""></img>
+            <h5>Aidan Lilani</h5>
+            <p><a href="https://www.linkedin.com/in/aidan-lilani/" class="fab fa-linkedin"></a> Founder</p>
+        </div>
+        <div class="col s6 m4 l3 hoverable team-block">
+            <img src="/static/images/contact/jh.png" width="150" height="150" class="team-pic" alt=""></img>
+            <h5>Justin Huang</h5>
+            <p><a class="fab fa-linkedin"></a> Management</p>
+        </div>
+        <div class="col s6 m4 l3 hoverable team-block">
+            <img src="/static/images/contact/is.png" width="150" height="150" class="team-pic" alt=""></img>
+            <h5>Isabelle Smyth</h5>
+            <p><a href="https://www.linkedin.com/in/isabelle-smyth-088a83162/" class="fab fa-linkedin"></a> Outreach</p>
+        </div>
+        <div class="col s6 m4 l3 hoverable team-block">
+            <img src="/static/images/contact/bm.png" width="150" height="150" class="team-pic" alt=""></img>
+            <h5>Blake Mazzaferro</h5>
+            <p><a href="https://www.linkedin.com/in/blakemazzaferro/" class="fab fa-linkedin"></a> Developer</p>
+        </div>
+        <div class="col s6 m4 l3 hoverable team-block">
+            <img src="/static/images/contact/jp.png" width="150" height="150" class="team-pic" alt=""></img>
+            <h5>Jason Posner</h5>
+            <p><a href="https://www.linkedin.com/in/jason-posner-1a928616a/" class="fab fa-linkedin"></a> Developer</p>
+        </div>
+        <div class="col s6 m4 l3 hoverable team-block">
+            <img src="/static/images/contact/lr.png" width="150" height="150" class="team-pic" alt=""></img>
+            <h5>Luke Ruter</h5>
+            <p><a href="https://www.linkedin.com/in/lukeruter/" class="fab fa-linkedin"></a> Sysadmin</p>
+        </div>
+    </div>
+    <br>
+  </div>
+</div>
+
+<div class="parallax-container">
+  <div class="parallax"><img src="{% static 'img/background0.jpg' %}" alt="Unsplashed background img 2"></div>
+</div>
+
+<footer class="page-footer bg2 z-depth-5 hoverable">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <p class="grey-text text-lighten-4">Connecting student entrepenuers with their target markets through new innovations in networking and infostructure.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    LLC Pending
+    </div>
+  </div>
+</footer>
+{% endblock %}
